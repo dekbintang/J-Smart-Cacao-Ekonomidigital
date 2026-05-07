@@ -3885,10 +3885,8 @@
 
       function selectPay(method) {
         selectedPay = method;
-        var grid = document.getElementById("payGrid");
-        if (!grid) return;
-        grid.querySelectorAll(".pay-chip").forEach(function (el) {
-          el.classList.toggle("on", el.getAttribute("data-pay") === method);
+        document.querySelectorAll(".pay-chip").forEach(function(el) {
+          el.classList.toggle("on", el.id === "pay-" + method);
         });
       }
 
