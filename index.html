@@ -234,6 +234,31 @@
         color: var(--mint);
       }
 
+     .dcard-actions {
+        display: flex;
+        gap: 8px;
+      }
+
+    .dcard-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 7px 0;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      background: transparent;
+      transition: background .15s;
+    }
+
+    .btn-maps    { border: 1.5px solid #1D9E75; color: #1D9E75; }
+    .btn-maps:hover    { background: #1D9E7514; }
+
+    .btn-booking { border: 1.5px solid #fad02c; color: #fad02c; }
+    .btn-booking:hover { background: #dddb7714; }
       /* ═══════════════════════════
    SHARED LAYOUT
 ═══════════════════════════ */
@@ -2953,8 +2978,7 @@
         </div>
       </div>
 
-      <!-- DESTINATIONS -->
-      <!-- DESTINATIONS -->
+ <!-- DESTINATIONS -->
 <section class="sec sec--surface">
   <div class="wrap">
     <div class="dest-grid" id="destGrid">
@@ -2963,7 +2987,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Taman Nasional Bali Barat" data-en="West Bali National Park">Taman Nasional Bali Barat</p>
           <p class="dcard-type">🌿 <span data-id="Alam" data-en="Nature">Alam</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/of2gGFT9fi6J33ko6" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="budaya">
@@ -2971,7 +2998,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Jegog Sangkaragung" data-en="Jegog Sangkaragung">Jegog Sangkaragung</p>
           <p class="dcard-type">🥁 <span data-id="Budaya" data-en="Culture">Budaya</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/KF2si1PFzJLyMgmc7" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="religi">
@@ -2979,7 +3009,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Pura Rambut Siwi" data-en="Rambut Siwi Temple">Pura Rambut Siwi</p>
           <p class="dcard-type">⛩️ <span data-id="Religi" data-en="Spiritual">Religi</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/iWJAGrsc6NcLK6tK8" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="pantai">
@@ -2987,7 +3020,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Pantai Medewi" data-en="Medewi Beach">Pantai Medewi</p>
           <p class="dcard-type">🏄 <span data-id="Pantai" data-en="Beach">Pantai</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/cSEqRmnNZEKNPSz66" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="alam">
@@ -2995,7 +3031,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Kebun Raya Jagatnatha" data-en="Jagatnatha Botanical Garden">Kebun Raya Jagatnatha</p>
           <p class="dcard-type">🌿 <span data-id="Alam" data-en="Nature">Alam</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/9E8tT5r84Ywmo77d7" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="budaya">
@@ -3003,7 +3042,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Gedung Kesenian Bung Karno" data-en="Bung Karno Arts Center">Gedung Kesenian Bung Karno</p>
           <p class="dcard-type">🎨 <span data-id="Budaya" data-en="Culture">Budaya</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/TskHfRMtnBWXtWzq6" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="agrowisata">
@@ -3011,7 +3053,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Kebun Kakao KTT Merta Abadi" data-en="KTT Merta Abadi Cacao Farm">Kebun Kakao KTT Merta Abadi</p>
           <p class="dcard-type">🌱 <span data-id="Agrowisata" data-en="Agrotourism">Agrowisata</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/Mt6qCbEPL7zs7rYc9" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
       <div class="dcard" data-cat="pantai">
@@ -3019,7 +3064,10 @@
         <div class="dcard-body">
           <p class="dcard-name" data-id="Pantai Pengeragoan" data-en="Pengeragoan Beach">Pantai Pengeragoan</p>
           <p class="dcard-type">🏄 <span data-id="Pantai" data-en="Beach">Pantai</span></p>
-          <a href="https://www.traveloka.com" target="_blank" class="dcard-map" data-id="🎟 Booking" data-en="🎟 Book Now">🎟 Booking</a>
+          <div class="dcard-actions">
+            <a href="https://maps.app.goo.gl/Z2TeRRn8C1rrLd8d8" class="dcard-btn btn-maps" target="_blank"><i class="ti ti-map-pin"></i> Maps</a>
+            <a href="https://www.traveloka.com" class="dcard-btn btn-booking" target="_blank"><i class="ti ti-ticket"></i> Booking</a>
+          </div>
         </div>
       </div>
     </div>
